@@ -1,0 +1,1250 @@
+[
+ {
+  "id": "pc_care_about",
+  "lemma": "care about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 110,
+  "ipa": "/keə əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "заботиться, волноваться",
+    "pos": "verb+prep",
+    "example": "She cares about the environment."
+   }
+  ]
+ },
+ {
+  "id": "pc_arrive_at",
+  "lemma": "arrive at",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "at",
+  "freq_rank": 138,
+  "ipa": "/əˈraɪv ət/",
+  "senses": [
+   {
+    "gloss": "прибывать на, приходить к",
+    "pos": "verb+prep",
+    "example": "We arrived at the station."
+   }
+  ]
+ },
+ {
+  "id": "pc_concentrate_on",
+  "lemma": "concentrate on",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "on",
+  "freq_rank": 142,
+  "ipa": "/ˈkɒnsənˌtreɪt ɒn/",
+  "senses": [
+   {
+    "gloss": "сосредоточиться на",
+    "pos": "verb+prep",
+    "example": "Concentrate on the task."
+   }
+  ]
+ },
+ {
+  "id": "pc_invest_in",
+  "lemma": "invest in",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "in",
+  "freq_rank": 140,
+  "ipa": "/ɪnˈvest ɪn/",
+  "senses": [
+   {
+    "gloss": "инвестировать в, вкладывать",
+    "pos": "verb+prep",
+    "example": "They invested in the company."
+   }
+  ]
+ },
+ {
+  "id": "pc_contribute_to",
+  "lemma": "contribute to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 145,
+  "ipa": "/kənˈtrɪbjuːt tə/",
+  "senses": [
+   {
+    "gloss": "способствовать, вносить вклад",
+    "pos": "verb+prep",
+    "example": "Good sleep contributes to health."
+   }
+  ]
+ },
+ {
+  "id": "pc_divide_into",
+  "lemma": "divide into",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "into",
+  "freq_rank": 150,
+  "ipa": "/dɪˈvaɪd ˈɪntə/",
+  "senses": [
+   {
+    "gloss": "делить на",
+    "pos": "verb+prep",
+    "example": "Divide the pizza into eight slices."
+   }
+  ]
+ },
+ {
+  "id": "pc_decide_on",
+  "lemma": "decide on",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "on",
+  "freq_rank": 148,
+  "ipa": "/dɪˈsaɪd ɒn/",
+  "senses": [
+   {
+    "gloss": "решиться на, выбрать",
+    "pos": "verb+prep",
+    "example": "We decided on the blue option."
+   }
+  ]
+ },
+ {
+  "id": "pc_vote_for",
+  "lemma": "vote for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 160,
+  "ipa": "/vəʊt fɔː/",
+  "senses": [
+   {
+    "gloss": "голосовать за",
+    "pos": "verb+prep",
+    "example": "Who did you vote for?"
+   }
+  ]
+ },
+ {
+  "id": "pc_blame_for",
+  "lemma": "blame for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 152,
+  "ipa": "/bleɪm fɔː/",
+  "senses": [
+   {
+    "gloss": "винить в, обвинять",
+    "pos": "verb+prep",
+    "example": "Don't blame me for this."
+   }
+  ]
+ },
+ {
+  "id": "pc_apologize_for",
+  "lemma": "apologize for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 155,
+  "ipa": "/əˈpɒlədʒaɪz fɔː/",
+  "senses": [
+   {
+    "gloss": "извиняться за",
+    "pos": "verb+prep",
+    "example": "I apologize for the delay."
+   }
+  ]
+ },
+ {
+  "id": "pc_account_for",
+  "lemma": "account for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 165,
+  "ipa": "/əˈkaʊnt fɔː/",
+  "senses": [
+   {
+    "gloss": "объяснять, составлять",
+    "pos": "verb+prep",
+    "example": "Exports account for 30% of sales."
+   }
+  ]
+ },
+ {
+  "id": "pc_adapt_to",
+  "lemma": "adapt to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 158,
+  "ipa": "/əˈdæpt tə/",
+  "senses": [
+   {
+    "gloss": "адаптироваться, привыкнуть",
+    "pos": "verb+prep",
+    "example": "She adapted to the new culture."
+   }
+  ]
+ },
+ {
+  "id": "pc_adjust_to",
+  "lemma": "adjust to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 162,
+  "ipa": "/əˈdʒʌst tə/",
+  "senses": [
+   {
+    "gloss": "приспособиться к",
+    "pos": "verb+prep",
+    "example": "I need time to adjust to this job."
+   }
+  ]
+ },
+ {
+  "id": "pc_appeal_to",
+  "lemma": "appeal to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 168,
+  "ipa": "/əˈpiːl tə/",
+  "senses": [
+   {
+    "gloss": "обращаться, нравиться",
+    "pos": "verb+prep",
+    "example": "This idea appeals to young people."
+   }
+  ]
+ },
+ {
+  "id": "pc_approve_of",
+  "lemma": "approve of",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "of",
+  "freq_rank": 172,
+  "ipa": "/əˈpruːv əv/",
+  "senses": [
+   {
+    "gloss": "одобрять",
+    "pos": "verb+prep",
+    "example": "Do your parents approve of him?"
+   }
+  ]
+ },
+ {
+  "id": "pc_argue_about",
+  "lemma": "argue about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 175,
+  "ipa": "/ˈɑːɡjuː əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "спорить о",
+    "pos": "verb+prep",
+    "example": "They argue about politics."
+   }
+  ]
+ },
+ {
+  "id": "pc_arise_from",
+  "lemma": "arise from",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "from",
+  "freq_rank": 178,
+  "ipa": "/əˈraɪz frəm/",
+  "senses": [
+   {
+    "gloss": "возникать из",
+    "pos": "verb+prep",
+    "example": "Problems arose from misunderstanding."
+   }
+  ]
+ },
+ {
+  "id": "pc_arrange_for",
+  "lemma": "arrange for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 180,
+  "ipa": "/əˈreɪndʒ fɔː/",
+  "senses": [
+   {
+    "gloss": "организовать, договориться",
+    "pos": "verb+prep",
+    "example": "Can you arrange for a taxi?"
+   }
+  ]
+ },
+ {
+  "id": "pc_arrive_from",
+  "lemma": "arrive from",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "from",
+  "freq_rank": 182,
+  "ipa": "/əˈraɪv frəm/",
+  "senses": [
+   {
+    "gloss": "приехать из",
+    "pos": "verb+prep",
+    "example": "The flight arrives from London."
+   }
+  ]
+ },
+ {
+  "id": "pc_attach_to",
+  "lemma": "attach to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 185,
+  "ipa": "/əˈtætʃ tə/",
+  "senses": [
+   {
+    "gloss": "прикреплять, быть привязанным",
+    "pos": "verb+prep",
+    "example": "Attach the document to your email."
+   }
+  ]
+ },
+ {
+  "id": "pc_attend_to",
+  "lemma": "attend to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 188,
+  "ipa": "/əˈtend tə/",
+  "senses": [
+   {
+    "gloss": "присматривать, заниматься",
+    "pos": "verb+prep",
+    "example": "I'll attend to this matter."
+   }
+  ]
+ },
+ {
+  "id": "pc_award_to",
+  "lemma": "award to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 190,
+  "ipa": "/əˈwɔːd tə/",
+  "senses": [
+   {
+    "gloss": "присуждать",
+    "pos": "verb+prep",
+    "example": "The prize was awarded to the winner."
+   }
+  ]
+ },
+ {
+  "id": "pc_back_up",
+  "lemma": "back up",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "up",
+  "freq_rank": 195,
+  "ipa": "/bæk ʌp/",
+  "senses": [
+   {
+    "gloss": "поддерживать, делать резервную копию",
+    "pos": "verb+prep",
+    "example": "Will you back me up?"
+   }
+  ]
+ },
+ {
+  "id": "pc_base_on",
+  "lemma": "base on",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "on",
+  "freq_rank": 192,
+  "ipa": "/beɪs ɒn/",
+  "senses": [
+   {
+    "gloss": "основывать на",
+    "pos": "verb+prep",
+    "example": "My decision is based on facts."
+   }
+  ]
+ },
+ {
+  "id": "pc_battle_with",
+  "lemma": "battle with",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "with",
+  "freq_rank": 198,
+  "ipa": "/ˈbætl wɪð/",
+  "senses": [
+   {
+    "gloss": "бороться с",
+    "pos": "verb+prep",
+    "example": "He battles with depression."
+   }
+  ]
+ },
+ {
+  "id": "pc_bear_on",
+  "lemma": "bear on",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "on",
+  "freq_rank": 200,
+  "ipa": "/beə ɒn/",
+  "senses": [
+   {
+    "gloss": "иметь отношение к",
+    "pos": "verb+prep",
+    "example": "This information bears on the case."
+   }
+  ]
+ },
+ {
+  "id": "pc_belong_with",
+  "lemma": "belong with",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "with",
+  "freq_rank": 202,
+  "ipa": "/bɪˈlɒŋ wɪð/",
+  "senses": [
+   {
+    "gloss": "быть на месте у, годиться к",
+    "pos": "verb+prep",
+    "example": "This book belongs with the others."
+   }
+  ]
+ },
+ {
+  "id": "pc_bid_for",
+  "lemma": "bid for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 205,
+  "ipa": "/bɪd fɔː/",
+  "senses": [
+   {
+    "gloss": "подать заявку на, торговаться",
+    "pos": "verb+prep",
+    "example": "Companies bid for the contract."
+   }
+  ]
+ },
+ {
+  "id": "pc_boast_about",
+  "lemma": "boast about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 208,
+  "ipa": "/bəʊst əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "хвастаться",
+    "pos": "verb+prep",
+    "example": "He boasts about his achievements."
+   }
+  ]
+ },
+ {
+  "id": "pc_break_into",
+  "lemma": "break into",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "into",
+  "freq_rank": 210,
+  "ipa": "/breɪk ˈɪntə/",
+  "senses": [
+   {
+    "gloss": "взломать, ворваться",
+    "pos": "verb+prep",
+    "example": "Thieves broke into the shop."
+   }
+  ]
+ },
+ {
+  "id": "pc_break_up_with",
+  "lemma": "break up with",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "with",
+  "freq_rank": 212,
+  "ipa": "/breɪk ʌp wɪð/",
+  "senses": [
+   {
+    "gloss": "расстаться с",
+    "pos": "verb+prep",
+    "example": "She broke up with her boyfriend."
+   }
+  ]
+ },
+ {
+  "id": "pc_bring_about",
+  "lemma": "bring about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 215,
+  "ipa": "/brɪŋ əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "вызвать, привести к",
+    "pos": "verb+prep",
+    "example": "The change brought about improvements."
+   }
+  ]
+ },
+ {
+  "id": "pc_brush_against",
+  "lemma": "brush against",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "against",
+  "freq_rank": 218,
+  "ipa": "/brʌʃ əˈɡenst/",
+  "senses": [
+   {
+    "gloss": "слегка коснуться",
+    "pos": "verb+prep",
+    "example": "He brushed against me."
+   }
+  ]
+ },
+ {
+  "id": "pc_budget_for",
+  "lemma": "budget for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 220,
+  "ipa": "/ˈbʌdʒɪt fɔː/",
+  "senses": [
+   {
+    "gloss": "рассчитывать на расходы",
+    "pos": "verb+prep",
+    "example": "We budgeted for travel costs."
+   }
+  ]
+ },
+ {
+  "id": "pc_burden_with",
+  "lemma": "burden with",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "with",
+  "freq_rank": 222,
+  "ipa": "/ˈbɜːdn wɪð/",
+  "senses": [
+   {
+    "gloss": "обременять, нагружать",
+    "pos": "verb+prep",
+    "example": "Don't burden me with extra work."
+   }
+  ]
+ },
+ {
+  "id": "pc_burn_out",
+  "lemma": "burn out",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "out",
+  "freq_rank": 225,
+  "ipa": "/bɜːn aʊt/",
+  "senses": [
+   {
+    "gloss": "выгореть (эмоционально)",
+    "pos": "verb+prep",
+    "example": "Teachers often burn out."
+   }
+  ]
+ },
+ {
+  "id": "pc_call_for",
+  "lemma": "call for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 227,
+  "ipa": "/kɔːl fɔː/",
+  "senses": [
+   {
+    "gloss": "требовать, звать",
+    "pos": "verb+prep",
+    "example": "The situation calls for action."
+   }
+  ]
+ },
+ {
+  "id": "pc_call_off",
+  "lemma": "call off",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "off",
+  "freq_rank": 230,
+  "ipa": "/kɔːl ɒf/",
+  "senses": [
+   {
+    "gloss": "отменить",
+    "pos": "verb+prep",
+    "example": "They called off the meeting."
+   }
+  ]
+ },
+ {
+  "id": "pc_catch_up",
+  "lemma": "catch up",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "up",
+  "freq_rank": 232,
+  "ipa": "/kætʃ ʌp/",
+  "senses": [
+   {
+    "gloss": "нагнать, наверстать",
+    "pos": "verb+prep",
+    "example": "Can you catch up with us?"
+   }
+  ]
+ },
+ {
+  "id": "pc_check_in",
+  "lemma": "check in",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "in",
+  "freq_rank": 235,
+  "ipa": "/tʃek ɪn/",
+  "senses": [
+   {
+    "gloss": "зарегистрироваться",
+    "pos": "verb+prep",
+    "example": "Check in at the hotel."
+   }
+  ]
+ },
+ {
+  "id": "pc_check_out",
+  "lemma": "check out",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "out",
+  "freq_rank": 237,
+  "ipa": "/tʃek aʊt/",
+  "senses": [
+   {
+    "gloss": "выписаться, проверить",
+    "pos": "verb+prep",
+    "example": "I'll check out the website."
+   }
+  ]
+ },
+ {
+  "id": "pc_choke_on",
+  "lemma": "choke on",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "on",
+  "freq_rank": 240,
+  "ipa": "/tʃəʊk ɒn/",
+  "senses": [
+   {
+    "gloss": "подавиться",
+    "pos": "verb+prep",
+    "example": "He choked on a fishbone."
+   }
+  ]
+ },
+ {
+  "id": "pc_clash_with",
+  "lemma": "clash with",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "with",
+  "freq_rank": 242,
+  "ipa": "/klæʃ wɪð/",
+  "senses": [
+   {
+    "gloss": "конфликтовать, не подходить",
+    "pos": "verb+prep",
+    "example": "These colors clash with each other."
+   }
+  ]
+ },
+ {
+  "id": "pc_collapse_into",
+  "lemma": "collapse into",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "into",
+  "freq_rank": 245,
+  "ipa": "/kəˈlæps ˈɪntə/",
+  "senses": [
+   {
+    "gloss": "упасть в",
+    "pos": "verb+prep",
+    "example": "He collapsed into a chair."
+   }
+  ]
+ },
+ {
+  "id": "pc_collide_with",
+  "lemma": "collide with",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "with",
+  "freq_rank": 247,
+  "ipa": "/kəˈlaɪd wɪð/",
+  "senses": [
+   {
+    "gloss": "столкнуться с",
+    "pos": "verb+prep",
+    "example": "The car collided with a tree."
+   }
+  ]
+ },
+ {
+  "id": "pa_sensitive_to",
+  "lemma": "sensitive to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 250,
+  "ipa": "/ˈsensɪtɪv tə/",
+  "senses": [
+   {
+    "gloss": "чувствительный к",
+    "pos": "adj+prep",
+    "example": "She is sensitive to criticism."
+   }
+  ]
+ },
+ {
+  "id": "pa_similar_to",
+  "lemma": "similar to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 252,
+  "ipa": "/ˈsɪmɪlə tə/",
+  "senses": [
+   {
+    "gloss": "похожий на",
+    "pos": "adj+prep",
+    "example": "This is similar to my idea."
+   }
+  ]
+ },
+ {
+  "id": "pa_suitable_for",
+  "lemma": "suitable for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 254,
+  "ipa": "/ˈsuːtəbl fɔː/",
+  "senses": [
+   {
+    "gloss": "подходящий для",
+    "pos": "adj+prep",
+    "example": "This diet is suitable for athletes."
+   }
+  ]
+ },
+ {
+  "id": "pa_appropriate_for",
+  "lemma": "appropriate for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 256,
+  "ipa": "/əˈprəʊpriət fɔː/",
+  "senses": [
+   {
+    "gloss": "уместный для",
+    "pos": "adj+prep",
+    "example": "This behavior is not appropriate for work."
+   }
+  ]
+ },
+ {
+  "id": "pa_available_for",
+  "lemma": "available for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 258,
+  "ipa": "/əˈveɪləbl fɔː/",
+  "senses": [
+   {
+    "gloss": "доступный для",
+    "pos": "adj+prep",
+    "example": "The position is available for immediate hire."
+   }
+  ]
+ },
+ {
+  "id": "pa_aware_of",
+  "lemma": "aware of",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "of",
+  "freq_rank": 260,
+  "ipa": "/əˈweə əv/",
+  "senses": [
+   {
+    "gloss": "осведомлённый о, знающий о",
+    "pos": "adj+prep",
+    "example": "Are you aware of the risks?"
+   }
+  ]
+ },
+ {
+  "id": "pa_capable_of",
+  "lemma": "capable of",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "of",
+  "freq_rank": 262,
+  "ipa": "/ˈkeɪpəbl əv/",
+  "senses": [
+   {
+    "gloss": "способный на",
+    "pos": "adj+prep",
+    "example": "She is capable of great things."
+   }
+  ]
+ },
+ {
+  "id": "pa_careful_about",
+  "lemma": "careful about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 264,
+  "ipa": "/ˈkeəfl əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "осторожный относительно",
+    "pos": "adj+prep",
+    "example": "Be careful about the ice."
+   }
+  ]
+ },
+ {
+  "id": "pa_close_to",
+  "lemma": "close to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 266,
+  "ipa": "/kləʊs tə/",
+  "senses": [
+   {
+    "gloss": "близкий к",
+    "pos": "adj+prep",
+    "example": "The deadline is close to."
+   }
+  ]
+ },
+ {
+  "id": "pa_concerned_about",
+  "lemma": "concerned about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 268,
+  "ipa": "/kənˈsɜːnd əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "обеспокоенный",
+    "pos": "adj+prep",
+    "example": "I'm concerned about the results."
+   }
+  ]
+ },
+ {
+  "id": "pa_confident_about",
+  "lemma": "confident about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 270,
+  "ipa": "/ˈkɒnfɪdənt əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "уверенный в",
+    "pos": "adj+prep",
+    "example": "I'm confident about this decision."
+   }
+  ]
+ },
+ {
+  "id": "pa_conscious_of",
+  "lemma": "conscious of",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "of",
+  "freq_rank": 272,
+  "ipa": "/ˈkɒnʃəs əv/",
+  "senses": [
+   {
+    "gloss": "осознающий",
+    "pos": "adj+prep",
+    "example": "He is conscious of his mistakes."
+   }
+  ]
+ },
+ {
+  "id": "pa_consistent_with",
+  "lemma": "consistent with",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "with",
+  "freq_rank": 274,
+  "ipa": "/kənˈsɪstənt wɪð/",
+  "senses": [
+   {
+    "gloss": "согласующийся с",
+    "pos": "adj+prep",
+    "example": "Your answer is consistent with mine."
+   }
+  ]
+ },
+ {
+  "id": "pa_content_with",
+  "lemma": "content with",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "with",
+  "freq_rank": 276,
+  "ipa": "/ˈkɒntent wɪð/",
+  "senses": [
+   {
+    "gloss": "довольный",
+    "pos": "adj+prep",
+    "example": "She is content with her life."
+   }
+  ]
+ },
+ {
+  "id": "pa_critical_of",
+  "lemma": "critical of",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "of",
+  "freq_rank": 278,
+  "ipa": "/ˈkrɪtɪkl əv/",
+  "senses": [
+   {
+    "gloss": "критикующий",
+    "pos": "adj+prep",
+    "example": "He is critical of the plan."
+   }
+  ]
+ },
+ {
+  "id": "pa_dependent_on",
+  "lemma": "dependent on",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "on",
+  "freq_rank": 280,
+  "ipa": "/dɪˈpendənt ɒn/",
+  "senses": [
+   {
+    "gloss": "зависимый от",
+    "pos": "adj+prep",
+    "example": "Children are dependent on their parents."
+   }
+  ]
+ },
+ {
+  "id": "pa_different_from",
+  "lemma": "different from",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "from",
+  "freq_rank": 282,
+  "ipa": "/ˈdɪfərənt frəm/",
+  "senses": [
+   {
+    "gloss": "отличающийся от",
+    "pos": "adj+prep",
+    "example": "This is different from what I expected."
+   }
+  ]
+ },
+ {
+  "id": "pa_difficult_for",
+  "lemma": "difficult for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 284,
+  "ipa": "/ˈdɪfɪkəlt fɔː/",
+  "senses": [
+   {
+    "gloss": "сложный для",
+    "pos": "adj+prep",
+    "example": "Math is difficult for him."
+   }
+  ]
+ },
+ {
+  "id": "pa_disappointed_in",
+  "lemma": "disappointed in",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "in",
+  "freq_rank": 286,
+  "ipa": "/ˌdɪsəˈpɔɪntɪd ɪn/",
+  "senses": [
+   {
+    "gloss": "разочарованный в",
+    "pos": "adj+prep",
+    "example": "I'm disappointed in the results."
+   }
+  ]
+ },
+ {
+  "id": "pa_disgusted_with",
+  "lemma": "disgusted with",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "with",
+  "freq_rank": 288,
+  "ipa": "/dɪsˈɡʌstɪd wɪð/",
+  "senses": [
+   {
+    "gloss": "отвращение к",
+    "pos": "adj+prep",
+    "example": "She is disgusted with the behavior."
+   }
+  ]
+ },
+ {
+  "id": "pa_embarrassed_about",
+  "lemma": "embarrassed about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 290,
+  "ipa": "/ɪmˈbærəst əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "смущённый из-за",
+    "pos": "adj+prep",
+    "example": "I'm embarrassed about my mistake."
+   }
+  ]
+ },
+ {
+  "id": "pa_engaged_in",
+  "lemma": "engaged in",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "in",
+  "freq_rank": 292,
+  "ipa": "/ɪnˈɡeɪdʒd ɪn/",
+  "senses": [
+   {
+    "gloss": "занятый",
+    "pos": "adj+prep",
+    "example": "They are engaged in research."
+   }
+  ]
+ },
+ {
+  "id": "pa_enthusiastic_about",
+  "lemma": "enthusiastic about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 294,
+  "ipa": "/ˌenθjuːziˈæstɪk əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "восторженный по поводу",
+    "pos": "adj+prep",
+    "example": "She is enthusiastic about the project."
+   }
+  ]
+ },
+ {
+  "id": "pa_equipped_for",
+  "lemma": "equipped for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 296,
+  "ipa": "/ɪˈkwɪpt fɔː/",
+  "senses": [
+   {
+    "gloss": "оснащённый для",
+    "pos": "adj+prep",
+    "example": "The team is equipped for success."
+   }
+  ]
+ },
+ {
+  "id": "pa_excellent_at",
+  "lemma": "excellent at",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "at",
+  "freq_rank": 298,
+  "ipa": "/ˈeksələnt ət/",
+  "senses": [
+   {
+    "gloss": "отличный в",
+    "pos": "adj+prep",
+    "example": "She is excellent at tennis."
+   }
+  ]
+ },
+ {
+  "id": "pa_famous_for",
+  "lemma": "famous for",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "for",
+  "freq_rank": 300,
+  "ipa": "/ˈfeɪməs fɔː/",
+  "senses": [
+   {
+    "gloss": "известный своей",
+    "pos": "adj+prep",
+    "example": "Italy is famous for pasta."
+   }
+  ]
+ },
+ {
+  "id": "pa_fortunate_in",
+  "lemma": "fortunate in",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "in",
+  "freq_rank": 302,
+  "ipa": "/ˈfɔːtʃənət ɪn/",
+  "senses": [
+   {
+    "gloss": "удачливый в",
+    "pos": "adj+prep",
+    "example": "We were fortunate in our choice."
+   }
+  ]
+ },
+ {
+  "id": "pa_friendly_to",
+  "lemma": "friendly to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 304,
+  "ipa": "/ˈfrendli tə/",
+  "senses": [
+   {
+    "gloss": "дружелюбный к",
+    "pos": "adj+prep",
+    "example": "The staff is friendly to customers."
+   }
+  ]
+ },
+ {
+  "id": "pa_full_of",
+  "lemma": "full of",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "of",
+  "freq_rank": 306,
+  "ipa": "/fʊl əv/",
+  "senses": [
+   {
+    "gloss": "полный",
+    "pos": "adj+prep",
+    "example": "The room is full of people."
+   }
+  ]
+ },
+ {
+  "id": "pa_glad_about",
+  "lemma": "glad about",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "about",
+  "freq_rank": 308,
+  "ipa": "/ɡlæd əˈbaʊt/",
+  "senses": [
+   {
+    "gloss": "рад по поводу",
+    "pos": "adj+prep",
+    "example": "I'm glad about the good news."
+   }
+  ]
+ },
+ {
+  "id": "pa_good_at",
+  "lemma": "good at",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "at",
+  "freq_rank": 310,
+  "ipa": "/ɡʊd ət/",
+  "senses": [
+   {
+    "gloss": "хороший в",
+    "pos": "adj+prep",
+    "example": "She is good at painting."
+   }
+  ]
+ },
+ {
+  "id": "pa_grateful_to",
+  "lemma": "grateful to",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "to",
+  "freq_rank": 312,
+  "ipa": "/ˈɡreɪtfl tə/",
+  "senses": [
+   {
+    "gloss": "благодарный",
+    "pos": "adj+prep",
+    "example": "I'm grateful to you."
+   }
+  ]
+ },
+ {
+  "id": "pa_guilty_of",
+  "lemma": "guilty of",
+  "pos": "collocation",
+  "is_expression": true,
+  "prep": "of",
+  "freq_rank": 314,
+  "ipa": "/ˈɡɪlti əv/",
+  "senses": [
+   {
+    "gloss": "виновный в",
+    "pos": "adj+prep",
+    "example": "He was found guilty of theft."
+   }
+  ]
+ }
+]

@@ -1,0 +1,703 @@
+[
+ {
+  "id": "e_like",
+  "lemma": "like",
+  "pos": "verb",
+  "freq_rank": 41,
+  "ipa": "/laɪk/",
+  "senses": [
+   {
+    "gloss": "нравиться, любить",
+    "pos": "verb",
+    "example": "I like coffee."
+   },
+   {
+    "gloss": "как, подобно",
+    "pos": "preposition",
+    "example": "She sings like a star."
+   }
+  ],
+  "usage": "would like = хотел бы."
+ },
+ {
+  "id": "e_go",
+  "lemma": "go",
+  "pos": "verb",
+  "freq_rank": 46,
+  "ipa": "/ɡəʊ/",
+  "is_irregular": true,
+  "forms": {
+   "past": "went",
+   "pp": "gone"
+  },
+  "senses": [
+   {
+    "gloss": "идти, ехать",
+    "pos": "verb",
+    "example": "Let's go home."
+   },
+   {
+    "gloss": "становиться (хуже)",
+    "pos": "verb",
+    "example": "The milk has gone bad."
+   }
+  ],
+  "past_example": "We went to the beach last Sunday."
+ },
+ {
+  "id": "e_need",
+  "lemma": "need",
+  "pos": "verb",
+  "freq_rank": 52,
+  "ipa": "/niːd/",
+  "senses": [
+   {
+    "gloss": "нуждаться, быть нужным",
+    "pos": "verb",
+    "example": "I need your help."
+   }
+  ],
+  "usage": "need to do sth."
+ },
+ {
+  "id": "e_work",
+  "lemma": "work",
+  "pos": "verb",
+  "freq_rank": 58,
+  "ipa": "/wɜːk/",
+  "senses": [
+   {
+    "gloss": "работать",
+    "pos": "verb",
+    "example": "She works in a bank."
+   },
+   {
+    "gloss": "работа",
+    "pos": "noun",
+    "example": "I have a lot of work today."
+   }
+  ]
+ },
+ {
+  "id": "e_say",
+  "lemma": "say",
+  "pos": "verb",
+  "freq_rank": 48,
+  "ipa": "/seɪ/",
+  "is_irregular": true,
+  "forms": {
+   "past": "said",
+   "pp": "said"
+  },
+  "senses": [
+   {
+    "gloss": "говорить, сказать",
+    "pos": "verb",
+    "example": "Say it again, please."
+   }
+  ],
+  "past_example": "She said nothing at the meeting yesterday."
+ },
+ {
+  "id": "e_love",
+  "lemma": "love",
+  "pos": "verb",
+  "freq_rank": 80,
+  "ipa": "/lʌv/",
+  "senses": [
+   {
+    "gloss": "любить",
+    "pos": "verb",
+    "example": "I love you."
+   },
+   {
+    "gloss": "любовь",
+    "pos": "noun",
+    "example": "Love is blind."
+   }
+  ]
+ },
+ {
+  "id": "e_look",
+  "lemma": "look",
+  "pos": "verb",
+  "freq_rank": 53,
+  "ipa": "/lʊk/",
+  "senses": [
+   {
+    "gloss": "смотреть",
+    "pos": "verb",
+    "example": "Look at the sky."
+   },
+   {
+    "gloss": "выглядеть",
+    "pos": "verb",
+    "example": "You look tired."
+   }
+  ],
+  "usage": "look like = быть похожим."
+ },
+ {
+  "id": "e_help",
+  "lemma": "help",
+  "pos": "verb",
+  "freq_rank": 95,
+  "ipa": "/help/",
+  "senses": [
+   {
+    "gloss": "помогать",
+    "pos": "verb",
+    "example": "Can you help me?"
+   },
+   {
+    "gloss": "помощь",
+    "pos": "noun",
+    "example": "I need help."
+   }
+  ]
+ },
+ {
+  "id": "e_give",
+  "lemma": "give",
+  "pos": "verb",
+  "freq_rank": 62,
+  "ipa": "/ɡɪv/",
+  "is_irregular": true,
+  "forms": {
+   "past": "gave",
+   "pp": "given"
+  },
+  "senses": [
+   {
+    "gloss": "давать, дарить",
+    "pos": "verb",
+    "example": "Give me your hand."
+   }
+  ],
+  "past_example": "He gave her flowers on her birthday."
+ },
+ {
+  "id": "e_feel",
+  "lemma": "feel",
+  "pos": "verb",
+  "freq_rank": 88,
+  "ipa": "/fiːl/",
+  "is_irregular": true,
+  "forms": {
+   "past": "felt",
+   "pp": "felt"
+  },
+  "senses": [
+   {
+    "gloss": "чувствовать",
+    "pos": "verb",
+    "example": "I feel happy."
+   },
+   {
+    "gloss": "ощущаться, казаться",
+    "pos": "verb",
+    "example": "It feels cold."
+   }
+  ],
+  "past_example": "I felt much better after the holiday."
+ },
+ {
+  "id": "e_keep",
+  "lemma": "keep",
+  "pos": "verb",
+  "freq_rank": 92,
+  "ipa": "/kiːp/",
+  "is_irregular": true,
+  "forms": {
+   "past": "kept",
+   "pp": "kept"
+  },
+  "senses": [
+   {
+    "gloss": "держать, хранить",
+    "pos": "verb",
+    "example": "Keep the change."
+   },
+   {
+    "gloss": "продолжать",
+    "pos": "verb",
+    "example": "Keep going!"
+   }
+  ],
+  "past_example": "She kept all his letters for years."
+ },
+ {
+  "id": "e_put",
+  "lemma": "put",
+  "pos": "verb",
+  "freq_rank": 75,
+  "ipa": "/pʊt/",
+  "is_irregular": true,
+  "forms": {
+   "past": "put",
+   "pp": "put"
+  },
+  "senses": [
+   {
+    "gloss": "класть, ставить",
+    "pos": "verb",
+    "example": "Put it on the table."
+   }
+  ],
+  "usage": "put on = надевать; put off = откладывать.",
+  "past_example": "He put the keys on the table an hour ago."
+ },
+ {
+  "id": "e_show",
+  "lemma": "show",
+  "pos": "verb",
+  "freq_rank": 100,
+  "ipa": "/ʃəʊ/",
+  "is_irregular": true,
+  "forms": {
+   "past": "showed",
+   "pp": "shown"
+  },
+  "senses": [
+   {
+    "gloss": "показывать",
+    "pos": "verb",
+    "example": "Show me the way."
+   },
+   {
+    "gloss": "шоу, представление",
+    "pos": "noun",
+    "example": "We watched a great show."
+   }
+  ],
+  "past_example": "The guide showed us the old town yesterday."
+ },
+ {
+  "id": "e_man",
+  "lemma": "man",
+  "pos": "noun",
+  "freq_rank": 78,
+  "ipa": "/mæn/",
+  "senses": [
+   {
+    "gloss": "мужчина",
+    "pos": "noun",
+    "example": "A man and a woman."
+   },
+   {
+    "gloss": "человек (вообще)",
+    "pos": "noun",
+    "example": "Every man should know this."
+   }
+  ],
+  "usage": "Мн. — men /men/."
+ },
+ {
+  "id": "e_home",
+  "lemma": "home",
+  "pos": "noun",
+  "freq_rank": 85,
+  "ipa": "/həʊm/",
+  "senses": [
+   {
+    "gloss": "дом, жильё",
+    "pos": "noun",
+    "example": "There's no place like home."
+   },
+   {
+    "gloss": "домой",
+    "pos": "adverb",
+    "example": "I want to go home."
+   }
+  ]
+ },
+ {
+  "id": "e_part",
+  "lemma": "part",
+  "pos": "noun",
+  "freq_rank": 84,
+  "ipa": "/pɑːt/",
+  "senses": [
+   {
+    "gloss": "часть",
+    "pos": "noun",
+    "example": "the best part of the film"
+   },
+   {
+    "gloss": "роль",
+    "pos": "noun",
+    "example": "She played a small part."
+   }
+  ],
+  "usage": "take part = участвовать."
+ },
+ {
+  "id": "e_house",
+  "lemma": "house",
+  "pos": "noun",
+  "freq_rank": 105,
+  "ipa": "/haʊs/",
+  "senses": [
+   {
+    "gloss": "дом (здание)",
+    "pos": "noun",
+    "example": "They live in a big house."
+   }
+  ]
+ },
+ {
+  "id": "e_school",
+  "lemma": "school",
+  "pos": "noun",
+  "freq_rank": 98,
+  "ipa": "/skuːl/",
+  "senses": [
+   {
+    "gloss": "школа",
+    "pos": "noun",
+    "example": "The kids are at school."
+   }
+  ]
+ },
+ {
+  "id": "e_end",
+  "lemma": "end",
+  "pos": "noun",
+  "freq_rank": 112,
+  "ipa": "/end/",
+  "senses": [
+   {
+    "gloss": "конец",
+    "pos": "noun",
+    "example": "the end of the story"
+   },
+   {
+    "gloss": "заканчивать(ся)",
+    "pos": "verb",
+    "example": "The film ends at ten."
+   }
+  ],
+  "usage": "in the end = в конце концов."
+ },
+ {
+  "id": "e_game",
+  "lemma": "game",
+  "pos": "noun",
+  "freq_rank": 115,
+  "ipa": "/ɡeɪm/",
+  "senses": [
+   {
+    "gloss": "игра",
+    "pos": "noun",
+    "example": "Let's play a game."
+   }
+  ]
+ },
+ {
+  "id": "e_money",
+  "lemma": "money",
+  "pos": "noun",
+  "freq_rank": 130,
+  "ipa": "/ˈmʌni/",
+  "senses": [
+   {
+    "gloss": "деньги",
+    "pos": "noun",
+    "example": "I don't have enough money."
+   }
+  ],
+  "usage": "Неисчисляемое: money is."
+ },
+ {
+  "id": "e_family",
+  "lemma": "family",
+  "pos": "noun",
+  "freq_rank": 125,
+  "ipa": "/ˈfæməli/",
+  "senses": [
+   {
+    "gloss": "семья",
+    "pos": "noun",
+    "example": "I love my family."
+   }
+  ]
+ },
+ {
+  "id": "e_much",
+  "lemma": "much",
+  "pos": "adjective",
+  "freq_rank": 50,
+  "ipa": "/mʌtʃ/",
+  "senses": [
+   {
+    "gloss": "много (с неисч.)",
+    "pos": "adjective",
+    "example": "I don't have much time."
+   },
+   {
+    "gloss": "намного",
+    "pos": "adverb",
+    "example": "much better"
+   }
+  ],
+  "usage": "much — для неисчисляемого; many — для исчисляемого."
+ },
+ {
+  "id": "e_many",
+  "lemma": "many",
+  "pos": "adjective",
+  "freq_rank": 51,
+  "ipa": "/ˈmeni/",
+  "senses": [
+   {
+    "gloss": "много (с исч.)",
+    "pos": "adjective",
+    "example": "many people"
+   }
+  ]
+ },
+ {
+  "id": "e_last",
+  "lemma": "last",
+  "pos": "adjective",
+  "freq_rank": 56,
+  "ipa": "/lɑːst/",
+  "senses": [
+   {
+    "gloss": "последний",
+    "pos": "adjective",
+    "example": "the last bus"
+   },
+   {
+    "gloss": "прошлый",
+    "pos": "adjective",
+    "example": "last week"
+   }
+  ]
+ },
+ {
+  "id": "e_best",
+  "lemma": "best",
+  "pos": "adjective",
+  "freq_rank": 72,
+  "ipa": "/best/",
+  "senses": [
+   {
+    "gloss": "лучший",
+    "pos": "adjective",
+    "example": "the best day of my life"
+   }
+  ],
+  "usage": "Превосходная степень от good."
+ },
+ {
+  "id": "e_old",
+  "lemma": "old",
+  "pos": "adjective",
+  "freq_rank": 68,
+  "ipa": "/əʊld/",
+  "senses": [
+   {
+    "gloss": "старый",
+    "pos": "adjective",
+    "example": "an old house"
+   },
+   {
+    "gloss": "возрастом (... лет)",
+    "pos": "adjective",
+    "example": "She is ten years old."
+   }
+  ]
+ },
+ {
+  "id": "e_high",
+  "lemma": "high",
+  "pos": "adjective",
+  "freq_rank": 82,
+  "ipa": "/haɪ/",
+  "senses": [
+   {
+    "gloss": "высокий",
+    "pos": "adjective",
+    "example": "a high mountain"
+   }
+  ],
+  "usage": "О человеке «высокий» — tall, не high."
+ },
+ {
+  "id": "e_big",
+  "lemma": "big",
+  "pos": "adjective",
+  "freq_rank": 76,
+  "ipa": "/bɪɡ/",
+  "senses": [
+   {
+    "gloss": "большой",
+    "pos": "adjective",
+    "example": "a big dog"
+   }
+  ]
+ },
+ {
+  "id": "e_free",
+  "lemma": "free",
+  "pos": "adjective",
+  "freq_rank": 108,
+  "ipa": "/friː/",
+  "senses": [
+   {
+    "gloss": "свободный",
+    "pos": "adjective",
+    "example": "Are you free tonight?"
+   },
+   {
+    "gloss": "бесплатный",
+    "pos": "adjective",
+    "example": "The drinks are free."
+   }
+  ]
+ },
+ {
+  "id": "e_next",
+  "lemma": "next",
+  "pos": "adjective",
+  "freq_rank": 66,
+  "ipa": "/nekst/",
+  "senses": [
+   {
+    "gloss": "следующий",
+    "pos": "adjective",
+    "example": "the next train"
+   },
+   {
+    "gloss": "рядом (next to)",
+    "pos": "adverb",
+    "example": "She sat next to me."
+   }
+  ]
+ },
+ {
+  "id": "e_right",
+  "lemma": "right",
+  "pos": "adjective",
+  "freq_rank": 49,
+  "ipa": "/raɪt/",
+  "senses": [
+   {
+    "gloss": "правильный, верный",
+    "pos": "adjective",
+    "example": "You are right."
+   },
+   {
+    "gloss": "правый",
+    "pos": "adjective",
+    "example": "my right hand"
+   },
+   {
+    "gloss": "право",
+    "pos": "noun",
+    "example": "the right to vote"
+   }
+  ],
+  "usage": "right now = прямо сейчас."
+ },
+ {
+  "id": "e_back",
+  "lemma": "back",
+  "pos": "adverb",
+  "freq_rank": 44,
+  "ipa": "/bæk/",
+  "senses": [
+   {
+    "gloss": "назад, обратно",
+    "pos": "adverb",
+    "example": "Come back soon."
+   },
+   {
+    "gloss": "спина",
+    "pos": "noun",
+    "example": "My back hurts."
+   }
+  ]
+ },
+ {
+  "id": "e_really",
+  "lemma": "really",
+  "pos": "adverb",
+  "freq_rank": 54,
+  "ipa": "/ˈrɪəli/",
+  "senses": [
+   {
+    "gloss": "действительно, очень",
+    "pos": "adverb",
+    "example": "It's really good."
+   }
+  ]
+ },
+ {
+  "id": "e_never",
+  "lemma": "never",
+  "pos": "adverb",
+  "freq_rank": 64,
+  "ipa": "/ˈnevə/",
+  "senses": [
+   {
+    "gloss": "никогда",
+    "pos": "adverb",
+    "example": "I never lie."
+   }
+  ]
+ },
+ {
+  "id": "e_always",
+  "lemma": "always",
+  "pos": "adverb",
+  "freq_rank": 67,
+  "ipa": "/ˈɔːlweɪz/",
+  "senses": [
+   {
+    "gloss": "всегда",
+    "pos": "adverb",
+    "example": "She is always late."
+   }
+  ]
+ },
+ {
+  "id": "e_around",
+  "lemma": "around",
+  "pos": "adverb",
+  "freq_rank": 74,
+  "ipa": "/əˈraʊnd/",
+  "senses": [
+   {
+    "gloss": "вокруг",
+    "pos": "adverb",
+    "example": "Look around."
+   },
+   {
+    "gloss": "около, примерно",
+    "pos": "preposition",
+    "example": "around ten o'clock"
+   }
+  ]
+ },
+ {
+  "id": "e_away",
+  "lemma": "away",
+  "pos": "adverb",
+  "freq_rank": 86,
+  "ipa": "/əˈweɪ/",
+  "senses": [
+   {
+    "gloss": "прочь, вдали",
+    "pos": "adverb",
+    "example": "Go away!"
+   },
+   {
+    "gloss": "в отъезде",
+    "pos": "adverb",
+    "example": "She's away this week."
+   }
+  ]
+ }
+]

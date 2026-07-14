@@ -1,0 +1,752 @@
+[
+ {
+  "id": "n_time",
+  "lemma": "time",
+  "pos": "noun",
+  "freq_rank": 3,
+  "ipa": "/taɪm/",
+  "senses": [
+   {
+    "gloss": "время",
+    "pos": "noun",
+    "example": "Do you have time to talk?"
+   },
+   {
+    "gloss": "раз",
+    "pos": "noun",
+    "example": "I've told you this many times."
+   }
+  ],
+  "usage": "on time = вовремя; in time = успеть."
+ },
+ {
+  "id": "n_people",
+  "lemma": "people",
+  "pos": "noun",
+  "freq_rank": 6,
+  "ipa": "/ˈpiːpl̩/",
+  "senses": [
+   {
+    "gloss": "люди",
+    "pos": "noun",
+    "example": "A lot of people came to the party."
+   },
+   {
+    "gloss": "народ",
+    "pos": "noun",
+    "example": "the people of this country"
+   }
+  ],
+  "usage": "Всегда мн.: people are."
+ },
+ {
+  "id": "n_way",
+  "lemma": "way",
+  "pos": "noun",
+  "freq_rank": 40,
+  "ipa": "/weɪ/",
+  "senses": [
+   {
+    "gloss": "путь, дорога",
+    "pos": "noun",
+    "example": "Can you show me the way home?"
+   },
+   {
+    "gloss": "способ",
+    "pos": "noun",
+    "example": "This is the best way to learn."
+   }
+  ],
+  "usage": "by the way = кстати; no way = ни за что."
+ },
+ {
+  "id": "n_year",
+  "lemma": "year",
+  "pos": "noun",
+  "freq_rank": 28,
+  "ipa": "/jɪə/",
+  "senses": [
+   {
+    "gloss": "год",
+    "pos": "noun",
+    "example": "I lived there for three years."
+   }
+  ]
+ },
+ {
+  "id": "n_thing",
+  "lemma": "thing",
+  "pos": "noun",
+  "freq_rank": 33,
+  "ipa": "/θɪŋ/",
+  "senses": [
+   {
+    "gloss": "вещь, штука",
+    "pos": "noun",
+    "example": "Pack your things, we're leaving."
+   },
+   {
+    "gloss": "дело, обстоятельство",
+    "pos": "noun",
+    "example": "One thing at a time."
+   }
+  ]
+ },
+ {
+  "id": "n_world",
+  "lemma": "world",
+  "pos": "noun",
+  "freq_rank": 60,
+  "ipa": "/wɜːld/",
+  "senses": [
+   {
+    "gloss": "мир, свет",
+    "pos": "noun",
+    "example": "She travelled around the world."
+   }
+  ],
+  "usage": "around the world = по всему миру."
+ },
+ {
+  "id": "n_life",
+  "lemma": "life",
+  "pos": "noun",
+  "freq_rank": 55,
+  "ipa": "/laɪf/",
+  "senses": [
+   {
+    "gloss": "жизнь",
+    "pos": "noun",
+    "example": "He changed my life."
+   }
+  ],
+  "usage": "Мн. — lives /laɪvz/."
+ },
+ {
+  "id": "n_hand",
+  "lemma": "hand",
+  "pos": "noun",
+  "freq_rank": 110,
+  "ipa": "/hænd/",
+  "senses": [
+   {
+    "gloss": "рука (кисть)",
+    "pos": "noun",
+    "example": "Raise your hand if you know."
+   },
+   {
+    "gloss": "помощь",
+    "pos": "noun",
+    "example": "Give me a hand with this box."
+   }
+  ],
+  "usage": "on the other hand = с другой стороны."
+ },
+ {
+  "id": "n_place",
+  "lemma": "place",
+  "pos": "noun",
+  "freq_rank": 70,
+  "ipa": "/pleɪs/",
+  "senses": [
+   {
+    "gloss": "место",
+    "pos": "noun",
+    "example": "This is a nice place."
+   }
+  ],
+  "usage": "take place = состояться."
+ },
+ {
+  "id": "n_day",
+  "lemma": "day",
+  "pos": "noun",
+  "freq_rank": 22,
+  "ipa": "/deɪ/",
+  "senses": [
+   {
+    "gloss": "день",
+    "pos": "noun",
+    "example": "Have a nice day!"
+   }
+  ],
+  "usage": "these days = в наши дни."
+ },
+ {
+  "id": "v_get",
+  "lemma": "get",
+  "pos": "verb",
+  "freq_rank": 4,
+  "ipa": "/ɡet/",
+  "is_irregular": true,
+  "forms": {
+   "past": "got",
+   "pp": "got",
+   "pp_alt": "gotten"
+  },
+  "senses": [
+   {
+    "gloss": "получать",
+    "pos": "verb",
+    "example": "I got a letter today."
+   },
+   {
+    "gloss": "становиться",
+    "pos": "verb",
+    "example": "It's getting dark."
+   },
+   {
+    "gloss": "добираться",
+    "pos": "verb",
+    "example": "How do I get to the station?"
+   }
+  ],
+  "past_example": "Yesterday she got a letter from an old friend."
+ },
+ {
+  "id": "v_make",
+  "lemma": "make",
+  "pos": "verb",
+  "freq_rank": 13,
+  "ipa": "/meɪk/",
+  "is_irregular": true,
+  "forms": {
+   "past": "made",
+   "pp": "made"
+  },
+  "senses": [
+   {
+    "gloss": "делать, создавать",
+    "pos": "verb",
+    "example": "She made a cake."
+   },
+   {
+    "gloss": "заставлять",
+    "pos": "verb",
+    "example": "You make me laugh."
+   }
+  ],
+  "usage": "make a decision, make a mistake.",
+  "past_example": "Last night he made dinner for the whole family."
+ },
+ {
+  "id": "v_know",
+  "lemma": "know",
+  "pos": "verb",
+  "freq_rank": 10,
+  "ipa": "/nəʊ/",
+  "is_irregular": true,
+  "forms": {
+   "past": "knew",
+   "pp": "known"
+  },
+  "senses": [
+   {
+    "gloss": "знать",
+    "pos": "verb",
+    "example": "I know the answer."
+   },
+   {
+    "gloss": "уметь",
+    "pos": "verb",
+    "example": "Do you know how to swim?"
+   },
+   {
+    "gloss": "быть знакомым с",
+    "pos": "verb",
+    "example": "I've known her for years."
+   }
+  ],
+  "past_example": "I knew the answer right away."
+ },
+ {
+  "id": "v_think",
+  "lemma": "think",
+  "pos": "verb",
+  "freq_rank": 14,
+  "ipa": "/θɪŋk/",
+  "is_irregular": true,
+  "forms": {
+   "past": "thought",
+   "pp": "thought"
+  },
+  "senses": [
+   {
+    "gloss": "думать",
+    "pos": "verb",
+    "example": "Think before you speak."
+   },
+   {
+    "gloss": "считать, полагать",
+    "pos": "verb",
+    "example": "I think you're right."
+   }
+  ],
+  "past_example": "I thought about your offer all night."
+ },
+ {
+  "id": "v_take",
+  "lemma": "take",
+  "pos": "verb",
+  "freq_rank": 16,
+  "ipa": "/teɪk/",
+  "is_irregular": true,
+  "forms": {
+   "past": "took",
+   "pp": "taken"
+  },
+  "senses": [
+   {
+    "gloss": "брать, взять",
+    "pos": "verb",
+    "example": "Take an umbrella."
+   },
+   {
+    "gloss": "занимать (время)",
+    "pos": "verb",
+    "example": "It takes two hours."
+   },
+   {
+    "gloss": "принимать",
+    "pos": "verb",
+    "example": "Take this medicine twice a day."
+   }
+  ],
+  "past_example": "She took a taxi to the airport yesterday."
+ },
+ {
+  "id": "v_see",
+  "lemma": "see",
+  "pos": "verb",
+  "freq_rank": 11,
+  "ipa": "/siː/",
+  "is_irregular": true,
+  "forms": {
+   "past": "saw",
+   "pp": "seen"
+  },
+  "senses": [
+   {
+    "gloss": "видеть",
+    "pos": "verb",
+    "example": "I can see the sea."
+   },
+   {
+    "gloss": "понимать",
+    "pos": "verb",
+    "example": "I see what you mean."
+   }
+  ],
+  "past_example": "I saw a great film last weekend."
+ },
+ {
+  "id": "v_come",
+  "lemma": "come",
+  "pos": "verb",
+  "freq_rank": 18,
+  "ipa": "/kʌm/",
+  "is_irregular": true,
+  "forms": {
+   "past": "came",
+   "pp": "come"
+  },
+  "senses": [
+   {
+    "gloss": "приходить, приезжать",
+    "pos": "verb",
+    "example": "Come here, please."
+   },
+   {
+    "gloss": "наступать",
+    "pos": "verb",
+    "example": "Winter is coming."
+   }
+  ],
+  "past_example": "They came home very late yesterday."
+ },
+ {
+  "id": "v_want",
+  "lemma": "want",
+  "pos": "verb",
+  "freq_rank": 17,
+  "ipa": "/wɒnt/",
+  "senses": [
+   {
+    "gloss": "хотеть",
+    "pos": "verb",
+    "example": "I want a coffee."
+   },
+   {
+    "gloss": "нуждаться",
+    "pos": "verb",
+    "example": "The plants want watering."
+   }
+  ],
+  "usage": "want to do sth."
+ },
+ {
+  "id": "v_use",
+  "lemma": "use",
+  "pos": "verb",
+  "freq_rank": 25,
+  "ipa": "/juːz/",
+  "senses": [
+   {
+    "gloss": "использовать, применять",
+    "pos": "verb",
+    "example": "Can I use your phone?"
+   }
+  ],
+  "usage": "used to do = раньше делал."
+ },
+ {
+  "id": "v_find",
+  "lemma": "find",
+  "pos": "verb",
+  "freq_rank": 30,
+  "ipa": "/faɪnd/",
+  "is_irregular": true,
+  "forms": {
+   "past": "found",
+   "pp": "found"
+  },
+  "senses": [
+   {
+    "gloss": "находить, обнаруживать",
+    "pos": "verb",
+    "example": "I can't find my keys."
+   },
+   {
+    "gloss": "считать, находить (каким-л.)",
+    "pos": "verb",
+    "example": "I find this book difficult."
+   }
+  ],
+  "past_example": "They found a small cafe near the hotel."
+ },
+ {
+  "id": "a_good",
+  "lemma": "good",
+  "pos": "adjective",
+  "freq_rank": 8,
+  "ipa": "/ɡʊd/",
+  "senses": [
+   {
+    "gloss": "хороший",
+    "pos": "adjective",
+    "example": "That's a good idea."
+   },
+   {
+    "gloss": "добрый",
+    "pos": "adjective",
+    "example": "She was good to me."
+   },
+   {
+    "gloss": "умелый (at)",
+    "pos": "adjective",
+    "example": "He is good at maths."
+   }
+  ],
+  "usage": "better, best."
+ },
+ {
+  "id": "a_new",
+  "lemma": "new",
+  "pos": "adjective",
+  "freq_rank": 5,
+  "ipa": "/njuː/",
+  "senses": [
+   {
+    "gloss": "новый",
+    "pos": "adjective",
+    "example": "I bought a new car."
+   }
+  ]
+ },
+ {
+  "id": "a_great",
+  "lemma": "great",
+  "pos": "adjective",
+  "freq_rank": 35,
+  "ipa": "/ɡreɪt/",
+  "senses": [
+   {
+    "gloss": "великий",
+    "pos": "adjective",
+    "example": "a great writer"
+   },
+   {
+    "gloss": "отличный, классный",
+    "pos": "adjective",
+    "example": "We had a great time."
+   }
+  ]
+ },
+ {
+  "id": "a_long",
+  "lemma": "long",
+  "pos": "adjective",
+  "freq_rank": 45,
+  "ipa": "/lɒŋ/",
+  "senses": [
+   {
+    "gloss": "длинный",
+    "pos": "adjective",
+    "example": "a long road"
+   },
+   {
+    "gloss": "долгий",
+    "pos": "adjective",
+    "example": "It was a long day."
+   }
+  ],
+  "usage": "how long = как долго / какой длины."
+ },
+ {
+  "id": "a_important",
+  "lemma": "important",
+  "pos": "adjective",
+  "freq_rank": 120,
+  "ipa": "/ɪmˈpɔːtnt/",
+  "senses": [
+   {
+    "gloss": "важный",
+    "pos": "adjective",
+    "example": "This is an important question."
+   }
+  ]
+ },
+ {
+  "id": "a_little",
+  "lemma": "little",
+  "pos": "adjective",
+  "freq_rank": 38,
+  "ipa": "/ˈlɪtl̩/",
+  "senses": [
+   {
+    "gloss": "маленький",
+    "pos": "adjective",
+    "example": "A little dog ran past."
+   },
+   {
+    "gloss": "мало",
+    "pos": "adjective",
+    "example": "I have little money."
+   }
+  ],
+  "usage": "a little = немного; little = мало (негатив)."
+ },
+ {
+  "id": "a_sure",
+  "lemma": "sure",
+  "pos": "adjective",
+  "freq_rank": 90,
+  "ipa": "/ʃʊə/",
+  "senses": [
+   {
+    "gloss": "уверенный",
+    "pos": "adjective",
+    "example": "Are you sure?"
+   },
+   {
+    "gloss": "конечно (in reply)",
+    "pos": "adverb",
+    "example": "\"Can you help?\" \"Sure.\""
+   }
+  ],
+  "usage": "make sure = убедиться."
+ },
+ {
+  "id": "a_first",
+  "lemma": "first",
+  "pos": "adjective",
+  "freq_rank": 20,
+  "ipa": "/fɜːst/",
+  "senses": [
+   {
+    "gloss": "первый",
+    "pos": "adjective",
+    "example": "my first time here"
+   },
+   {
+    "gloss": "сначала",
+    "pos": "adverb",
+    "example": "First, let's eat."
+   }
+  ],
+  "usage": "at first = сначала; first of all = прежде всего."
+ },
+ {
+  "id": "r_also",
+  "lemma": "also",
+  "pos": "adverb",
+  "freq_rank": 7,
+  "ipa": "/ˈɔːlsəʊ/",
+  "senses": [
+   {
+    "gloss": "также, тоже",
+    "pos": "adverb",
+    "example": "She also speaks French."
+   }
+  ],
+  "usage": "Перед смысловым глаголом: I also know."
+ },
+ {
+  "id": "r_well",
+  "lemma": "well",
+  "pos": "adverb",
+  "freq_rank": 19,
+  "ipa": "/wel/",
+  "senses": [
+   {
+    "gloss": "хорошо",
+    "pos": "adverb",
+    "example": "She sings well."
+   },
+   {
+    "gloss": "ну, что ж",
+    "pos": "adverb",
+    "example": "Well, let me think."
+   },
+   {
+    "gloss": "колодец",
+    "pos": "noun",
+    "example": "They dug a well for water."
+   }
+  ],
+  "usage": "do well = справляться; as well = тоже."
+ },
+ {
+  "id": "r_even",
+  "lemma": "even",
+  "pos": "adverb",
+  "freq_rank": 26,
+  "ipa": "/ˈiːvn̩/",
+  "senses": [
+   {
+    "gloss": "даже",
+    "pos": "adverb",
+    "example": "He didn't even call."
+   },
+   {
+    "gloss": "чётный",
+    "pos": "adjective",
+    "example": "2, 4, 6 are even numbers."
+   },
+   {
+    "gloss": "ровный, гладкий",
+    "pos": "adjective",
+    "example": "Find an even surface."
+   }
+  ],
+  "usage": "even though = хотя; even if = даже если."
+ },
+ {
+  "id": "r_still",
+  "lemma": "still",
+  "pos": "adverb",
+  "freq_rank": 32,
+  "ipa": "/stɪl/",
+  "senses": [
+   {
+    "gloss": "всё ещё, по-прежнему",
+    "pos": "adverb",
+    "example": "He is still sleeping."
+   },
+   {
+    "gloss": "неподвижный, тихий",
+    "pos": "adjective",
+    "example": "Sit still!"
+   }
+  ]
+ },
+ {
+  "id": "pv_give_up",
+  "lemma": "give up",
+  "pos": "phrasal_verb",
+  "is_expression": true,
+  "freq_rank": 200,
+  "ipa": "/ɡɪv ʌp/",
+  "senses": [
+   {
+    "gloss": "сдаваться",
+    "pos": "phrasal_verb",
+    "example": "Don't give up so easily."
+   },
+   {
+    "gloss": "бросать (привычку)",
+    "pos": "phrasal_verb",
+    "example": "She gave up smoking last year."
+   }
+  ],
+  "usage": "give up (doing) sth."
+ },
+ {
+  "id": "pv_find_out",
+  "lemma": "find out",
+  "pos": "phrasal_verb",
+  "is_expression": true,
+  "freq_rank": 240,
+  "ipa": "/faɪnd aʊt/",
+  "senses": [
+   {
+    "gloss": "выяснить, узнать",
+    "pos": "phrasal_verb",
+    "example": "I need to find out the truth."
+   }
+  ],
+  "usage": "find out = узнать информацию."
+ },
+ {
+  "id": "pv_look_for",
+  "lemma": "look for",
+  "pos": "phrasal_verb",
+  "is_expression": true,
+  "freq_rank": 210,
+  "ipa": "/lʊk fɔː/",
+  "senses": [
+   {
+    "gloss": "искать",
+    "pos": "phrasal_verb",
+    "example": "I'm looking for my keys."
+   }
+  ],
+  "usage": "look after = заботиться; look at = смотреть на."
+ },
+ {
+  "id": "pv_come_back",
+  "lemma": "come back",
+  "pos": "phrasal_verb",
+  "is_expression": true,
+  "freq_rank": 230,
+  "ipa": "/kʌm bæk/",
+  "senses": [
+   {
+    "gloss": "возвращаться",
+    "pos": "phrasal_verb",
+    "example": "Come back soon!"
+   }
+  ],
+  "usage": "come back = вернуться (сюда)."
+ },
+ {
+  "id": "pv_go_on",
+  "lemma": "go on",
+  "pos": "phrasal_verb",
+  "is_expression": true,
+  "freq_rank": 220,
+  "ipa": "/ɡəʊ ɒn/",
+  "senses": [
+   {
+    "gloss": "продолжать",
+    "pos": "phrasal_verb",
+    "example": "Go on, I'm listening."
+   },
+   {
+    "gloss": "происходить",
+    "pos": "phrasal_verb",
+    "example": "What's going on here?"
+   }
+  ]
+ }
+]
