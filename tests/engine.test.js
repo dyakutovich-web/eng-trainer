@@ -76,6 +76,16 @@
   eq(E.isTypo('mkae', 'make'), false, 'перестановка = дистанция 2, не опечатка');
   eq(E.isTypo('make', 'make'), false, 'точный ответ — не опечатка');
 
+  // --- нарастающая сложность (3.5): продукция после базы ---
+  e = E.newEntry('active1', word);
+  eq(E.baseReady(e, word), false, 'свежее слово: база не готова');
+  eq(E.readyTypes(e, word, D1), ['listen', 'translate', 'context'], 'сначала только рецепция');
+  e.points.listen = 3; e.points.translate = 3; e.points.context = 3;
+  eq(E.baseReady(e, word), true, 'база ≥3 по рецептивным — готова');
+  eq(E.readyTypes(e, word, D1).includes('recall'), true, 'продукция открылась');
+  e = E.newEntry('active2', word);
+  eq(E.readyTypes(e, word, D1).length, E.playableTypes(e, word, D1).length, 'Этап 2: всё открыто сразу');
+
   // --- стрик (US-13) ---
   eq(E.calcStreak({ '2026-07-09': 1, '2026-07-08': 1, '2026-07-07': 2 }, 1, '2026-07-09'), 3, 'стрик 3 дня подряд');
   eq(E.calcStreak({ '2026-07-08': 1, '2026-07-07': 1 }, 1, '2026-07-09'), 2, 'сегодня без цели — стрик не рвётся');

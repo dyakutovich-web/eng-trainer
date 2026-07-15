@@ -9,7 +9,8 @@
   const K_DAYS = 'evt_days', K_LOG = 'evt_anslog', K_LASTTEST = 'evt_lastTest', K_SNOOZE = 'evt_testSnooze';
   const K_CUSTOM = 'evt_custom', K_CEX = 'evt_customex';   // свои слова и свои примеры
 
-  const TYPE_LABEL = { listen: 'Аудирование', translate: 'Перевод', context: 'Контекст', write: 'Написание', recall: 'RU→EN', speak: 'Произношение', forms: 'Формы' };
+  const TYPE_LABEL = { listen: 'Аудирование', translate: 'EN→RU', context: 'Контекст', write: 'Написание', recall: 'RU→EN', speak: 'Произношение', forms: 'Формы' };
+  const K_FLAGS = 'evt_flags';   // жалобы на качество перевода/примера
 
   const app = document.getElementById('app');
   const footer = document.getElementById('footer');
@@ -592,7 +593,7 @@
 
   function availableTypes(it) {
     const p = P(it);
-    if (mode === 'study') return E.playableTypes(p, it, todayStr());
+    if (mode === 'study') return E.readyTypes(p, it, todayStr());   // с нарастающей сложностью
     const th = E.threshold(p.stage);                       // free: без капов, но добитые оси не гоняем
     return E.typesFor(it).filter(t => p.points[t] < th);
   }
@@ -630,7 +631,29 @@
     const type = pick[Math.floor(Math.random() * pick.length)];
     // паттерн предлога показывается первый раз → сначала карточка-правило
     if (it.kind === 'prep_pattern' && !p.seen) return showPatternIntro(it, type);
+    // новое слово (Этап 1, ни одного балла) → сначала знакомство, потом упражнения
+    if (it.kind !== 'prep_pattern' && p.stage === 1 && !p.met && E.typesFor(it).every(t => !p.points[t])) {
+      return showWordIntro(it, type);
+    }
     renderExercise(it, type);
+  }
+
+  /* 3.5: знакомство со словом перед первым упражнением */
+  function showWordIntro(it, type) {
+    const sl = (it.senses || []).map(s => `<li><b>${esc(s.gloss)}</b> <span class="muted">(${esc(s.pos)})</span><br><span class="ex-line">${esc(s.example)}</span></li>`).join('');
+    app.innerHTML = `<div class="card">
+      <div class="section-label">Новое слово · знакомство</div>
+      <div class="lemma">${esc(it.lemma)}</div>
+      <div class="ipa">${esc(it.ipa || '')} <button class="audio-btn" id="say">🔊</button></div>
+      <ul class="examples">${sl}</ul>
+      ${it.is_irregular && it.forms ? `<div class="muted">неправильный глагол: ${esc(it.lemma)} — <b>${esc(it.forms.past)}</b> — <b>${esc(it.forms.pp)}</b></div>` : ''}
+      ${it.usage ? `<div class="muted" style="margin-top:6px">${esc(it.usage)}</div>` : ''}
+      <p class="muted" style="margin-top:14px">Сначала прослушай и прочитай. Дальше — упражнения от простого к сложному: узнавание → контекст → воспроизведение.</p>
+    </div>`;
+    footer.innerHTML = `<button id="go" class="full btn-primary">Понятно → упражнение</button>`;
+    speak(it.lemma);
+    document.getElementById('say').onclick = () => speak(it.lemma);
+    document.getElementById('go').onclick = () => { P(it).met = true; save(); renderExercise(it, type); };
   }
 
   function showPatternIntro(it, type) {
@@ -737,13 +760,15 @@
     const p = P(it); if (!p || p.list !== 'active') return '';
     const th = E.threshold(p.stage);
     const capped = new Set(E.cappedTypes(p, it, todayStr()));
+    const gated = !E.baseReady(p, it);
     const rows = E.typesFor(it).map(t => {
       const pts = p.points[t], done = pts >= th, cap = capped.has(t);
-      return `<div class="tprow ${cap ? 'dim' : ''}"><span class="tname">${TYPE_LABEL[t]}${done ? ' ✓' : ''}</span>
+      const lock = gated && E.TIER2.includes(t) && !done;
+      return `<div class="tprow ${cap || lock ? 'dim' : ''}"><span class="tname">${TYPE_LABEL[t]}${done ? ' ✓' : ''}</span>
         <div class="bar"><span style="width:${Math.round(100 * pts / th)}%"></span></div>
-        <span class="tnum">${cap ? '✓ на сегодня' : pts + '/' + th}</span></div>`;
+        <span class="tnum">${lock ? '🔒' : cap ? '✓ на сегодня' : pts + '/' + th}</span></div>`;
     }).join('');
-    return `<div class="section-label">Этап ${p.stage} · прогресс по слову</div><div class="tpbars">${rows}</div>`;
+    return `<div class="section-label">Этап ${p.stage} · прогресс по слову${gated ? ' · 🔒 откроются после базы' : ''}</div><div class="tpbars">${rows}</div>`;
   }
 
   function renderExercise(it, type) {
@@ -834,13 +859,16 @@
       <input type="text" id="win" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="type in English…" />
       <div class="row" style="margin-top:12px"><button id="wchk" class="full btn-primary">Проверить</button></div>`;
   }
-  /* UX-2: recall RU→EN */
+  /* UX-2: recall RU→EN — с контекстом-пропуском, чтобы снять синонимию (3.5) */
   function exRecall(it) {
-    const sense = it.senses[Math.floor(Math.random() * it.senses.length)];
+    const withEx = it.senses.filter(s => s.example && s.example.toLowerCase().includes(it.lemma.toLowerCase()));
+    const sense = withEx.length ? withEx[Math.floor(Math.random() * withEx.length)] : it.senses[0];
     current.correct = it.lemma; current.sense = sense;
+    const gap = withEx.length ? sense.example.replace(new RegExp(escRe(it.lemma), 'i'), '____') : '';
     return `<div class="prompt"><b style="font-size:24px">${esc(sense.gloss)}</b>
       <span class="pos" style="margin-left:8px">${esc(sense.pos)}</span>
-      <div class="muted" style="font-size:13px;margin-top:6px">вспомни и напиши английское слово</div></div>
+      ${gap ? `<div class="gap-line">${esc(gap)}</div>` : ''}
+      <div class="muted" style="font-size:13px;margin-top:6px">${gap ? 'какое слово пропущено?' : 'вспомни и напиши английское слово'}</div></div>
       <input type="text" id="rin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="type in English…" />
       <div class="row" style="margin-top:12px"><button id="rchk" class="full btn-primary">Проверить</button></div>
       <button id="rgiveup" class="ghost full" style="margin-top:10px">Не помню</button>`;
@@ -962,9 +990,15 @@
       + reveal + reviewNote
       + (flash ? `<div class="feedback ok" style="margin-top:8px">${esc(flash)}</div>` : '');
     const pb = document.getElementById('pbars'); if (pb) pb.innerHTML = mode === 'study' ? progressBars(it) : '';
-    footer.innerHTML = `<div class="row"><button id="retire" class="ghost">Убрать</button><button id="next" class="full btn-primary">Дальше →</button></div>`;
+    footer.innerHTML = `<div class="row"><button id="flag" class="ghost" title="Пожаловаться на перевод/пример">🚩</button><button id="retire" class="ghost">Убрать</button><button id="next" class="full btn-primary">Дальше →</button></div>`;
     document.getElementById('next').onclick = () => nextAfterRound(true);
     document.getElementById('retire').onclick = () => { flash = ''; addTo(it, 'solid'); nextAfterRound(true); };
+    document.getElementById('flag').onclick = () => {
+      const flags = readJSON(K_FLAGS) || [];
+      flags.push({ id: it.id, lemma: it.lemma, type, d: todayStr() });
+      localStorage.setItem(K_FLAGS, JSON.stringify(flags));
+      toast('Помечено — исправим при следующей чистке');
+    };
     if (it.lemma && (type === 'recall' || !ok)) speak(it.lemma);
   }
 
@@ -1002,7 +1036,7 @@
   function doExport() {
     const payload = {
       app: 'english-vocab-trainer', version: 3, exported: new Date().toISOString(), progress,
-      custom: readJSON(K_CUSTOM) || [], customExamples: readJSON(K_CEX) || {}
+      custom: readJSON(K_CUSTOM) || [], customExamples: readJSON(K_CEX) || {}, flags: readJSON(K_FLAGS) || []
     };
     const blob = new Blob([JSON.stringify(payload, null, 1)], { type: 'application/json' });
     const a = document.createElement('a');
@@ -1048,7 +1082,7 @@
       <div class="muted">каталог ${c.catalog} · учу ${c.active} · выучено ${c.learned} · железно ${c.solid}</div>
       <div class="backup-card">
         <div class="section-label" style="margin-top:0">Резервная копия</div>
-        <div class="muted" style="font-size:13px">последний экспорт: ${lastTxt}</div>
+        <div class="muted" style="font-size:13px">последний экспорт: ${lastTxt}${(readJSON(K_FLAGS) || []).length ? ` · 🚩 жалоб на контент: ${(readJSON(K_FLAGS) || []).length} (уйдут с экспортом)` : ''}</div>
         <div class="row" style="margin-top:10px">
           <button id="exp" class="btn-primary">⬇ Скачать прогресс</button>
           <button id="imp">⬆ Восстановить</button>

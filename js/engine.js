@@ -52,6 +52,19 @@
     return g && g.date === today ? g.n : 0;
   }
 
+  /* Нарастающая сложность (3.5): на Этапе 1 продукционные оси (TIER2) открываются
+     после базы — каждая рецептивная ось ≥ GATE баллов. На Этапе 2 открыто всё. */
+  const TIER2 = ['write', 'recall', 'speak', 'forms'];
+  const GATE = 3;
+  function baseReady(entry, item) {
+    if (!entry || entry.stage !== 1) return true;
+    return typesFor(item).filter((t) => !TIER2.includes(t)).every((t) => (entry.points[t] || 0) >= GATE);
+  }
+  function readyTypes(entry, item, today) {
+    const pl = playableTypes(entry, item, today);
+    return baseReady(entry, item) ? pl : pl.filter((t) => !TIER2.includes(t));
+  }
+
   // типы, доступные к тренировке НА БАЛЛЫ сегодня
   function playableTypes(entry, item, today) {
     if (!entry || entry.list !== 'active') return [];
@@ -148,9 +161,10 @@
   }
 
   root.Engine = {
-    TH1, TH2, PEN, CAP_PER_DAY,
+    TH1, TH2, PEN, CAP_PER_DAY, TIER2, GATE,
     typesFor, threshold, zeroPoints, newEntry, migrate,
     playableTypes, cappedTypes, gainedToday, applyAnswer,
+    baseReady, readyTypes,
     editDistance, isTypo, calcStreak
   };
 })(typeof globalThis !== 'undefined' ? globalThis : this);
