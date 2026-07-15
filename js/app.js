@@ -205,10 +205,9 @@
       ${exportBannerHtml()}
       ${testReminderHtml(c)}
       <button class="full btn-primary cta" id="m-study">▶ Учить<br><small>активных ${c.active} · доступно сегодня ${avail}</small></button>
+      <button class="full" id="m-triage" style="margin-top:12px;padding:16px">➕ Пополнить слова <small class="muted">· разметка каталога (${c.catalog})</small></button>
       <div class="mode-grid" style="margin-top:12px">
-        <button class="mode-tile" id="m-triage">⚡ Разметка<small>каталог ${c.catalog}</small></button>
         <button class="mode-tile" id="m-search">🔍 Поиск<small>найти / добавить</small></button>
-        <button class="mode-tile" id="m-add">➕ Пополнить<small>по одному, со значениями</small></button>
         <button class="mode-tile" id="m-preps">🧩 Предлоги<small>паттерны и чанки</small></button>
         <button class="mode-tile" id="m-test">✅ Тест выученных<small>${c.learned} слов</small></button>
         <button class="mode-tile" id="m-lists">📊 Прогресс<small>списки, копия</small></button>
@@ -221,7 +220,6 @@
     document.getElementById('m-study').onclick = () => startStudy();
     document.getElementById('m-triage').onclick = () => showTriageIntro();
     document.getElementById('m-search').onclick = () => showSearch('');
-    document.getElementById('m-add').onclick = () => showCatalog();
     document.getElementById('m-preps').onclick = () => startPreps();
     document.getElementById('m-test').onclick = () => startTest();
     document.getElementById('m-lists').onclick = () => showLists();
@@ -322,10 +320,12 @@
       <div class="row stack">
         <button class="full btn-primary" id="t-calib">🎯 Калибровка (~2 мин)<br><small style="font-weight:400">80 случайных слов → оценю границу знания → предложу массовое «железно», остальное — чеклистом</small></button>
         <button class="full" id="t-list">📋 Листать чеклистом<br><small style="font-weight:400" class="muted">страницы по 50, по умолчанию «знаю» — отмечай только незнакомое</small></button>
+        <button class="full ghost" id="t-one">🐢 По одному, со значениями<br><small style="font-weight:400" class="muted">медленный режим для вдумчивого разбора</small></button>
       </div></div>`;
     footer.innerHTML = `<button class="full ghost" id="back">← В меню</button>`;
     document.getElementById('t-calib').onclick = () => startCalibration();
     document.getElementById('t-list').onclick = () => showChecklist(0);
+    document.getElementById('t-one').onclick = () => showCatalog();
     document.getElementById('back').onclick = showMenu;
   }
 
